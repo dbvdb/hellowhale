@@ -1,2 +1,2 @@
 # hellowhale
-Simple Docker Demo App
+Simple app to deploy on kubernetes
