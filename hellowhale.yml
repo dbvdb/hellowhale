@@ -5,9 +5,7 @@ metadata:
   name: hello-blue-whale
 spec:
   strategy:
-    rollingUpdate:
-      maxSurge: 3
-      maxUnavailable: 0
+    type: Recreate
   replicas: 5
   selector:
     matchLabels:
